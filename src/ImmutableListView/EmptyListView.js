@@ -24,9 +24,7 @@ class EmptyListView extends PureComponent {
   };
 
   static defaultProps = {
-    ...ListView.defaultProps,
-
-    emptyText: 'No data.',
+    emptyText: 'No data.'
   };
 
   state = {
