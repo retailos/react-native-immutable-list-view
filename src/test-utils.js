@@ -1,7 +1,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import Immutable from 'immutable';
 import React from 'react';
-import { Text, ListView } from 'react-native';
+import { Text } from 'react-native';
+import { ListView } from 'deprecated-react-native-listview';
 import renderer from 'react-test-renderer';
 /* eslint-enable */
 
