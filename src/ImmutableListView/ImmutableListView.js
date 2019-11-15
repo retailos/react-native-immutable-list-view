@@ -1,7 +1,8 @@
 import Immutable from 'immutable';
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
-import { Text, ListView, InteractionManager } from 'react-native';
+import { Text, InteractionManager } from 'react-native';
+import ListView from 'deprecated-react-native-listview';
 
 import styles from '../styles';
 import utils from '../utils';
