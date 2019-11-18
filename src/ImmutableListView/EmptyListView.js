@@ -42,7 +42,7 @@ class EmptyListView extends PureComponent {
     this.setListDataFromProps(this.props);
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     this.setListDataFromProps(nextProps);
   }
 

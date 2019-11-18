@@ -109,7 +109,7 @@ class ImmutableListView extends PureComponent {
     this.setStateFromPropsAfterInteraction(this.props);
   }
 
-  componentWillReceiveProps(newProps) {
+  UNSAFE_componentWillReceiveProps(newProps) {
     this.setStateFromPropsAfterInteraction(newProps);
   }
 
