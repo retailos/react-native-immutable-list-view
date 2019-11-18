@@ -104,7 +104,7 @@ class ImmutableListView extends PureComponent {
     interactionOngoing: true,
   };
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.canSetState = true;
     this.setStateFromPropsAfterInteraction(this.props);
   }

@@ -38,7 +38,7 @@ class EmptyListView extends PureComponent {
     listData: utils.UNITARY_LIST,
   };
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.setListDataFromProps(this.props);
   }
 
